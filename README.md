@@ -1,7 +1,7 @@
 L'obiettivo di questo esercizio è sfruttare una macchina vulnerabile, in questo caso Metasploitable, utilizzando il framework Metasploit per ottenere accesso tramite un payload reverse TCP. In seguito, si cercheranno vulnerabilità locali per tentare di ottenere privilegi elevati.
 mbiente
 
-elezione del modulo PostgreSQL:
+selezione del modulo PostgreSQL:
 
 Viene utilizzato il modulo exploit/linux/postgres/postgres_payload per attaccare un server PostgreSQL. Questo modulo permette di bersagliare una sessione esistente o un host remoto (RHOST).
 L'utente imposta l'host di destinazione (RHOST) su 192.168.1.231.
